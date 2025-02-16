@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	
+    
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+	background-color: #4b3b42;
+	
+
+}
+
+.navbar-nav .nav-link {
+	color: #fffff2;
+}
+
+header {
+	
+	color: #fffff2;
+	background-image: url('output-onlinejpgtools.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin: 0;
+    padding: 0;
+      
+	
+}
+
+
+.container {
+    padding: 20px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #4b3b42;
+    color: #fffff2;
+    
+}
+
+.testimonial {
+    padding: 15px;
+    border-left: 4px solid #4b3b42;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.service-box {
+    position: relative;
+    height: 350px; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.service-box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+
+.service-box .content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+}
+
+
+.math {
+    background-image: url("math.jpg");
+}
+
+.science {
+    background-image: url("science.jpg");
+}
+
+.english {
+    background-image: url("english.jpg");
+}
+
+.test-prep {
+    background-image: url("test-prep.jpg");
+}
+
+
+
+.location-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.location-card h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.location-card p {
+    color: #555;
+}
+
+.location-card iframe {
+    border-radius: 8px;
+}
+
+
+.contact-info {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-info h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
